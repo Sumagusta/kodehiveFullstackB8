@@ -10,11 +10,11 @@ public class ConditionIfElse {
 			
 			// expression.condition
 		if (experience < 2) {
-			System.out.println("Salary : Rp. "+5500000);
+			System.out.println("Salary : Rp. "+5900000);
 		} else if (experience > 2) { // else-if digunakan untuk membuat alternatif pilihan lain lain jika kondisi dalam expression sebelumnya salah
-			System.out.println("Salary : Rp. "+7600000);
+			System.out.println("Salary : Rp. "+7700000);
 		} else {
-			System.out.println("< 1 thn");
+			System.out.println("< 1 tahun");
 		}
 		System.out.println();
 		
