@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+
+<title>css</title>
+
+<style type="text/css">
+h1{
+	color: fuchsia;
+	font-family: sans-serif;
+	background-color: lime;
+}
+
+/* * {
+	color: lime;
+	background-color: gray;
+} */
+
+h3{
+	color: green;
+	font-family: sans-serif;
+	background-color: lime;
+}
+
+/* jika ada label dalam span, diberikan css */
+span label {
+	color: red;
+	font-weight: bold;
+	padding: 10px;
+}
+
+span a {
+	color: yellow;
+}
+
+h1 label{
+	color: green;
+}
+
+.newcss {
+	color: maroon;
+	font-family: sans-serif;
+	background-color: navy;
+}
+
+#test{
+	color: yellow;
+	background-color: black;
+}
+
+h2#hero {
+	color: red;
+	background-color: yellow;
+}
+
+h2 > p {
+	font-weight: bold;
+	color: navy;
+	background-color: yellow;
+}
+
+input[type="text"]{
+	background-color: green;
+	color: white;
+}
+
+input[type="password"]{
+	background-color: black;
+	color: white;
+}
+
+h6[style]{
+	background-color: lime;
+}
+
+h2, h3, h6{
+	color: maroon;
+	font-family: sans-serif;
+	background-color: navy;	
+}
+
+.css1, #css2, .css3 {
+
+	color: maroon;
+	font-family: sans-serif;
+	background-color: navy;	
+
+}
+</style>
+</head>
+<body>
+
+<!-- 
+	Buat Css sendiri yang berisi : warna kuning, padding 20px, bg-color gray, bold
+	panggil css buatan sendiri ke suatu tag h3
+ -->
+ 
+ <!-- 
+ 	Bagaimana caranyxa setiap tag h2 yang memiliki id = 'hero' akan diwarnai merah
+ 	dan bg-colornya yellow
+  -->
+	<h1 style="color: yellow; background-color: blue;">INLINE <label>CSS</label></h1>
+	<h1 style="background-color: yellow;">INTERNAL CSS</h1>
+	<h1>s</h1>
+	<label id="test">test label</label>
+	<h2 class="newcss">remaining essentially unchanged. <span>It was <p>popularised</p> in the <label>1960s</label> with
+		the release of <a>Letraset</a> sheets containing Lorem Ipsum passages</span>, and
+		more recently with desktop publishing software like Aldus PageMaker
+		including versions of Lorem Ipsum.</h2>
+		
+	<h2 id="hero">Superman</h2>
+	<h2 id="herp">Superman
+		<p>is my</p>
+		<span>Hero<p>guys</p></span>
+	</h2>
+	
+	<input type="text" value="Username"/>
+	<input type="password" />
+	
+	<h6 style="color: red;">RED</h6>
+	
+	<h5 class="css1">TEST CSS 1</h5>
+	<h5 id="css2">TEST CSS 2</h5>
+	<h5 class="css3">TEST CSS 3</h5>
+
+</body>
+</html>
