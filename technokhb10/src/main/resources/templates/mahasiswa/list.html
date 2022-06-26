@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<tr th:each="mahasiswa:${bungkusanBacaData}">
+		<td th:text="${mahasiswa.kd_mhs}"></td>
+		<td th:text="${mahasiswa.kd_jurusan}"></td>
+		<td th:text="${mahasiswa.nm_mhs}"></td>
+		<td th:text="${mahasiswa.usia}"></td>
+	</tr>
+</body>
+</html>
